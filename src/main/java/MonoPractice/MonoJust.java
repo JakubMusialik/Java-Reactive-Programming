@@ -3,7 +3,7 @@ package MonoPractice;
 import reactor.core.publisher.Mono;
 
 // MONO JUST
-public class Two {
+public class MonoJust {
     public static void main(String[] args) {
 
         //publisher

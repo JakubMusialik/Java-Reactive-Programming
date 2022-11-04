@@ -4,7 +4,7 @@ import MonoPractice.util.Util;
 import reactor.core.publisher.Mono;
 
 // EMPTY OR ERROR
-public class Four {
+public class MonoEmptyOrError {
     public static void main(String[] args) {
 
         userRepositoryFake(15L)

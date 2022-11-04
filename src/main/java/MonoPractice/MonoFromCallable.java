@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 import java.util.concurrent.Callable;
 
 // MONO FROM CALLABLE
-public class Six {
+public class MonoFromCallable {
     public static void main(String[] args) {
 
         Callable<String> stringCallable = () -> getName();

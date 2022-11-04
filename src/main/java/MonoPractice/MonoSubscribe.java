@@ -4,7 +4,7 @@ import MonoPractice.util.Util;
 import reactor.core.publisher.Mono;
 
 // MONO SUBSCRIBE
-public class Three {
+public class MonoSubscribe {
     public static void main(String[] args) {
 
         //publisher

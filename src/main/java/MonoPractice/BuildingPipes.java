@@ -3,7 +3,7 @@ package MonoPractice;
 import java.util.stream.Stream;
 
 // STREAM
-public class One {
+public class BuildingPipes {
     public static void main(String[] args) {
 
         Stream<Integer> stream = Stream.of(1, 2, 3)

@@ -4,16 +4,16 @@ import MonoPractice.util.Util;
 import reactor.core.publisher.Mono;
 
 //MONO FROM RUNNABLE
-public class Nine {
+public class MonoFromRunnable {
     public static void main(String[] args) {
 
 
-        Mono.fromRunnable(timeConsumingProcess()) //Runnable zwraca informacje gdy sie wykona
+        Mono.fromRunnable(timeConsumingProcess()) //Runnable returns information when consumed
                 .subscribe(
                         Util.onNext(),
                         Util.onError(),
                         () -> {
-                            System.out.println("Process is done. Doing smth..."); //zalezny od metody timeConsumingProcess
+                            System.out.println("Process is done. Doing smth..."); //depends on  timeConsumingProcess method
                         }
                 );
     }

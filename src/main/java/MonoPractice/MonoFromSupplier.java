@@ -5,10 +5,10 @@ import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
 // MONO FROM SUPPLIER
-public class Five {
+public class MonoFromSupplier {
     public static void main(String[] args) {
 
-        //uzywac gdy mamy dane
+        //use when we have data
 //        Mono<String> mono = Mono.just(getName());
 
         getName().subscribe(
