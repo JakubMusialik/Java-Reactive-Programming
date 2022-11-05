@@ -14,3 +14,14 @@ Service is responsible for : </br>
 
 We expect the service to work only when `subscribed`. </br>
 Another expectation is to communicate with user in terms of errors.
+
+
+# Explore Flux class
+In the package called `FluxPractice` you can find simple tasks describing how Mono class works. </br>
+Also check out the jpg file called `FluxTable` and treat it as a cheat sheet.
+
+# Flux class assignment
+In this assignment we are creating `Stock market observer`. </br>
+Our service should be responsible for generating random stock movement and emit the values </br>
+to the subscribers. In addition when stock reaches it's `ATH` or `ATL` that are set by user </br>
+program should shut down itself.
